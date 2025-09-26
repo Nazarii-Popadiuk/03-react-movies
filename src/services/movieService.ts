@@ -1,4 +1,4 @@
-import type { Movie } from "../types/movies";
+import type { Movie } from "../types/movie";
 import axios from "axios";
 
 const API_URL = 'https://api.themoviedb.org/3/search/movie';

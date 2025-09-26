@@ -4,7 +4,7 @@ import { toast, Toaster } from 'react-hot-toast';
 import SearchBar from "../SearchBar/SearchBar";
 import { fetchMovies } from '../../services/movieService';
 import MovieGrid from '../MovieGrid/MovieGrad';
-import type { Movie } from '../../types/movies';
+import type { Movie } from '../../types/movie';
 import Loader from '../Loader/Loader';
 import ErrorMessage from '../ErrorMessage/ErrorMessage';
 
