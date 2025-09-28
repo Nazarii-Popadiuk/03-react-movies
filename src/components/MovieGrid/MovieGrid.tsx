@@ -23,10 +23,10 @@ export default function MovieGrid({ movies, onSelect }: MovieGridProps) {
    <img
 		  className={styles.image}
 		  src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
-		  alt="{movie.title}"
+		  alt={movie.title}
 		  loading="lazy"
 		 />
-	  <h2 className={movie.title}>Movie title</h2>
+	  <h2 className={styles.title}>{movie.title}</h2>
   </div>
      </li>
      )}
